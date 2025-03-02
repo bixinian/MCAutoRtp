@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "autortp",
+	"version": "2.0.0",
+	"name": "Auto RTP",
+	"description": "自动执行/rtp命令来寻找特定地形与遗迹并设置Home.",
+	"authors": ["Bixinian"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/autortp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"cn.bixinian.AutoRtp"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"fabric": "*"
+	}
+}
